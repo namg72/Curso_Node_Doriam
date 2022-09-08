@@ -1,0 +1,13 @@
+Vamos a utilizar un motor de plantillas para poder cambiar la respusta del servidor dinamicamente. Esto hara que al devolver los datos desde el servidor
+podamos construir un html desde el propio servidor
+
+Vamos a utizar el motor de plantillas pug, el cual tenemos que instalar como dependencia de producción
+
+Tambien vamos a crear una capeta que denominaremos vistas donde iran las vistas o plantillas que vamos a renderizar cuando nos las pidan 
+
+dentro de la caprtea vista nos creamos una archivo .pug donde creamos el html que queremos renderizar y se lo tenemos que indicar al controlador    
+
+en el h1 le vamos a dar la variable title que hemos creado en el controlador de forma dinamica y que pug reconoce 
+
+en pug hay que respetar la identacion y los espacios
+

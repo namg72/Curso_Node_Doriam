@@ -1,0 +1,6 @@
+Vamos a hacer que si falla la url que el servidor nos redigira a un html que nos diga que tenermos un eror 404
+Para ello establecemos una ruta extra al final de nuestras rutas. Cuando el servidor se ejecute, si no encuentra
+ninguna ruta el servidor entra en ella
+
+Los archivos estaticos, html, css, imagnes, musica .... que no van a cambiar que no son dinamicos
+los vamos a poner en un carpeta que denominaremos public
