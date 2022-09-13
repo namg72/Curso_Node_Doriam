@@ -7,7 +7,8 @@
 
 
  controller.index = (req, res) => {
-     res.send("La conexión ha sido correcta desde index.controller")
+     // res.send("La conexión ha sido correcta desde index.controller")
+     res.sendFile("/Users/nachomartinez/Pictures/Fotos GS/211024131516-3.jpg")
  }
 
  //Exportamos el objeto para poder utilizarlo deantro de las rutas

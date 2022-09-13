@@ -23,7 +23,7 @@ const app = express();
 //requerimos el archivo que hemos exportado y lo asignamos a una constante y luego le decimos a app que lo use
 const routes = require("./routes/index.routes")
 app.use(routes)
-    //se podrida hacer en un solo paso∫no
+    //se podrida hacer en un solo paso
     // app.use(require("./routes/index.routes")
 
 
@@ -45,8 +45,8 @@ const path = require("path")
 app.use(express.static(path.join(__dirname, "../public")));
 
 app.use((reg, res) => {
-     res.sendFile(path.join(__dirname, "../public/error.html")) 
-   
+    res.sendFile(path.join(__dirname, "../public/error.html"))
+
 })
 
 
